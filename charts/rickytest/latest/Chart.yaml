@@ -15,7 +15,7 @@ maintainers:
   name: eldada
 - email: rimasm@jfrog.com
   name: rimusz
-name: artifactory-ha
+name: rtest
 sources:
 - https://bintray.com/jfrog/product/JFrog-Artifactory-Pro/view
 - https://github.com/jfrog/charts
