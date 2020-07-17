@@ -1,0 +1,13 @@
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: rb-b
+  namespace: ns-b
+subjects:
+- kind: ServiceAccount
+  name: name-serviceaccount
+  namespace: istio-system
+roleRef:
+  kind: ClusterRole
+  name: mycr
+  apiGroup: rbac.authorization.k8s.io
